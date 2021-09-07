@@ -681,6 +681,8 @@
 }
 
 .main-menu {
+  overflow-x: hidden;
+  position: relative;
   background: radial-gradient(56.43% 79.12% at 50.48% -8.4%, #2A67A0 0%, #2A5D91 10.14%, #23385D 53.03%, #192141 84.12%, #141737 100%);
 }
 
@@ -785,6 +787,11 @@
   border-radius: 0px 0px 10px 10px;
 }
 
+.banner {
+  overflow-x: hidden;
+  position: relative;
+}
+
 .banner .img img {
   position: relative;
   width: 100%;
@@ -820,6 +827,8 @@
 }
 
 .linh-vuc-hoat-dong {
+  overflow-x: hidden;
+  position: relative;
   background: #141737;
 }
 
@@ -975,6 +984,8 @@
 }
 
 .he-sinh-thai {
+  overflow-x: hidden;
+  position: relative;
   background: radial-gradient(56.43% 79.12% at 50.48% -8.4%, #2A67A0 0%, #2A5D91 10.14%, #23385D 53.03%, #192141 84.12%, #141737 100%);
 }
 
@@ -1105,6 +1116,11 @@
   transform: translateX(50%);
 }
 
+.sieu-ung-dung {
+  overflow-x: hidden;
+  position: relative;
+}
+
 .sieu-ung-dung .row-ung-dung {
   display: flex;
 }
@@ -1166,6 +1182,11 @@
 
 .sieu-ung-dung .row-ung-dung .text .install a {
   padding-right: 8%;
+}
+
+.du-an-bds {
+  overflow-x: hidden;
+  position: relative;
 }
 
 .du-an-bds .row-bds {
@@ -1246,6 +1267,11 @@
   left: 45%;
 }
 
+.tin-tuc {
+  overflow-x: hidden;
+  position: relative;
+}
+
 .tin-tuc .row-tin-tuc {
   padding: 5% 0%;
 }
@@ -1314,6 +1340,8 @@
 }
 
 .row-footer {
+  overflow-x: hidden;
+  position: relative;
   background: radial-gradient(56.43% 79.12% at 50.48% -8.4%, #2A67A0 0%, #2A5D91 10.14%, #23385D 53.03%, #192141 84.12%, #141737 100%);
 }
 

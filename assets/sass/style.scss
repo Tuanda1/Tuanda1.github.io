@@ -1,9 +1,7 @@
 @import 'fonts';
-body{
-    overflow: hidden;
-    position: relative;
-}
 .main-menu{
+    overflow-x: hidden;
+    position: relative;
     background: radial-gradient(56.43% 79.12% at 50.48% -8.4%, #2A67A0 0%, #2A5D91 10.14%, #23385D 53.03%, #192141 84.12%, #141737 100%);
     .menu{
         width: 100%;
@@ -95,6 +93,8 @@ body{
 }
 //content
 .banner{
+    overflow-x: hidden;
+    position: relative;
     .img{
         img{
             position: relative;
@@ -129,6 +129,8 @@ body{
     }
 }
 .linh-vuc-hoat-dong{
+    overflow-x: hidden;
+    position: relative;
     background: #141737;
     .box-text{
         padding-top: 3%;
@@ -269,6 +271,8 @@ body{
     }   
 }
 .he-sinh-thai{
+    overflow-x: hidden;
+    position: relative;
         background: radial-gradient(56.43% 79.12% at 50.48% -8.4%, #2A67A0 0%, #2A5D91 10.14%, #23385D 53.03%, #192141 84.12%, #141737 100%);
     .box-text{
         position: absolute;
@@ -385,6 +389,8 @@ body{
     }
 }
 .sieu-ung-dung{
+    overflow-x: hidden;
+    position: relative;
     .row-ung-dung{
         display: flex;
         .img{
@@ -445,6 +451,8 @@ body{
     }
 }
 .du-an-bds{
+    overflow-x: hidden;
+    position: relative;
     .row-bds{
         background: #192141;
         position: relative;
@@ -515,6 +523,8 @@ body{
     }
 }
 .tin-tuc{
+    overflow-x: hidden;
+    position: relative;
     .row-tin-tuc{
         padding: 5% 0%;
         .text{
@@ -578,6 +588,8 @@ body{
 }
 //het content
     .row-footer{
+        overflow-x: hidden;
+        position: relative;
         background: radial-gradient(56.43% 79.12% at 50.48% -8.4%, #2A67A0 0%, #2A5D91 10.14%, #23385D 53.03%, #192141 84.12%, #141737 100%);
         .row-footer-top{
             display: flex;
