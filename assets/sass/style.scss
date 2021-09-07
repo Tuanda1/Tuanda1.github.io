@@ -1,4 +1,8 @@
 @import 'fonts';
+body{
+    overflow: hidden;
+    position: relative;
+}
 .main-menu{
     background: radial-gradient(56.43% 79.12% at 50.48% -8.4%, #2A67A0 0%, #2A5D91 10.14%, #23385D 53.03%, #192141 84.12%, #141737 100%);
     .menu{
