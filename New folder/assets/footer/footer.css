@@ -1,0 +1,126 @@
+.footer {
+  background: #0C245F;
+}
+
+.footer .row {
+  border-bottom: 1px solid #4d4d69;
+}
+
+.footer .row .logo img {
+  padding-top: 5%;
+  padding-left: 30%;
+}
+
+.footer .row .logo h3 {
+  padding-top: 2%;
+  padding-left: 30%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 199.08%;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer .row .lien-he {
+  padding-left: 30%;
+}
+
+.footer .row .lien-he p {
+  padding-top: 2%;
+  padding-left: 6%;
+  font-family: SVN-Gotham;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 151.58%;
+  letter-spacing: 0.13em;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.footer .row .lien-he p::before {
+  background: url("../images/Group 99.png");
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: 0;
+  -webkit-transform: rotate(-12.92deg);
+          transform: rotate(-12.92deg);
+}
+
+.footer .row .connect {
+  padding-left: 30%;
+  padding-top: 7%;
+}
+
+.footer .row .connect h6 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 199.08%;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.footer .row .connect img {
+  padding: 0.75%;
+  padding-bottom: 7.5%;
+}
+
+.footer .row .tt ul {
+  padding-top: 25%;
+  padding-left: 25%;
+}
+
+.footer .row .tt ul li {
+  list-style-type: none;
+  padding: .5% 0;
+}
+
+.footer .row .tt ul li a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 200%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer .row .ty ul {
+  padding-top: 25%;
+}
+
+.footer .row .ty ul li {
+  list-style-type: none;
+  padding: .5% 0;
+}
+
+.footer .row .ty ul li a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 200%;
+  text-transform: uppercase;
+  color: #5D84E3;
+}
+
+.footer .tag {
+  padding: 2% 15%;
+}
+
+.footer .tag p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #5AA9E8;
+}
+/*# sourceMappingURL=footer.css.map */

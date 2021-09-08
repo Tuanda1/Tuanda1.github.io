@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+
+/* .row-banner .row .img .pic{
+    width: 100%;
+} */
+.row-coffee .row{
+    padding: 5% 6.25%;
+}
+.row-coffee .row .ss{
+    position: absolute;
+    top :0;
+}
+.row-coffee .row .text {
+    width: 100%;
+    position: relative;
+    padding-top: 7%;
+    padding-left: 11%;
+}
+.row-coffee .row .text .pic{
+    position: absolute;
+    top:0;
+}
+.row-coffee .row .text h1{
+    font-size: 100px;
+    color: #0C245F;
+}
+.row-coffee .row .text i{
+    font-size: 36px;
+    color: #6D6D6D;
+}
+.row-coffee .row .text p{
+    font-size: 15px;
+    line-height: 164%;
+    color: #0C245F;
+} 
+.box {
+    padding:0% 6.25% ;
+    
+}
+.box .bor{
+    padding:3% 6.25% ;
+    
+    
+}
+.box .row-khong-gian {
+    border: 1px solid #CCC;
+}
+.box .row-khong-gian .row .img .pict{
+    width: 100%;
+    /* padding-left: 9%; */
+}
+.box .row-khong-gian .row .text{
+    padding-top: 25%;
+    /* padding-right: 9%; */
+}
+.box .row-khong-gian .row .text h2{
+    color:#0C245F;
+}
+.box .row-khong-gian .row .text p{
+    color:#929292;
+}
+
+.box .row-tien-ich {
+    margin-top: 1%;
+    border: 1px solid #CCC;
+}
+
+.box .row-tien-ich .row .text{
+    padding-top: 10%;
+    /* padding-right: 9%; */
+}
+.box .row-tien-ich .row .text h2{
+    color:#0C245F;
+    text-transform: uppercase;
+}
+.box .row-tien-ich .row .text li
+{
+    color:#929292;
+}
+.row-he-thong{
+    margin-top:5% ;
+    padding-top: 2%;
+}
+.row-he-thong .row .img .picture{
+    width: 100%;
+    
+}
+.row-he-thong .row .text{
+    padding-left: 12%;
+}
+.row-he-thong .row .text h1{
+    color:#0C245F;
+    font-size: 90px;
+    line-height: 90px;
+}
+.row-he-thong .row .text li{
+    color:#0C245F;
+    list-style: none;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 5%;
+    position: relative;
+}
+.row-he-thong .row .text li b{
+    font-size: 25px;
+    color: #343434;
+}
+.row-he-thong .row .text li::before{
+    background: url("../images/li.png");
+    content: '';
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 0;
+    /* top: 0; */
+    
+}
+.row-he-thong .row .text h4{
+    color:#0C245F;
+    position: relative;
+    padding-left: 5%;
+}
+.row-he-thong .row .text h4::before{
+    background: url("../images/Group.png");
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 25px;
+    left: 0;
+    transform: rotate(-12.92deg);
+}
+.footer{
+    background:#0C245F; 
+    color: #FFF;
+}
+.footer .row-footer .logo{
+    padding: 5% 10%;
+}
+.footer .row-footer .logo h3{
+    padding-top: 2%;
+}
+.footer .row-footer .lien-he p{
+    padding: 0% 13%;
+    line-height: 151.58%;
+    font-size: 20px;
+    letter-spacing: 0.13em;
+    position: relative;
+}
+.footer .row-footer .lien-he p::before{
+    background: url("../images/Group 99.png");
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    left: 10%;
+    /* transform: rotate(-12.92deg); */
+}
+.footer .row-footer .tt ul{
+    list-style: none;
+    padding-top: 25%;
+}
+.footer .row-footer .tt ul li a{
+    color:#FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer .row-footer .ty ul{
+    list-style: none;
+    padding-top: 25%;
+}
+.container .text{
+    color: #0C245F;
+    text-align: center;
+}
+.container .text h1{
+    font-size: 100px;
+}
+.container .text p{
+    font-size: 18px;
+    padding: 3% 13%;
+}
+/* css slide */
+.row-slick .text{
+    text-align: center;
+    color: #0C245F;
+}
+.row-slick .text h1{
+    font-size: 100px;
+    padding-top: 2%;
+}
+.row-slick .text p{
+    font-size: 18px;
+    padding: 0% 28%;
+}
+.lazy img{
+    width: 100%;
+}
+.lazy .slick-slide{
+    padding: 0.2% 0.1%;
+}
+.lazy .slick-slide .text{
+    background: #FFFFFF;
+
+}
+.lazy .slick-arrow{ display: none !important;}
+.row-slick .icon {
+    padding: 0% 43.5%;
+}

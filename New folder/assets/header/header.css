@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  background: #0c245f;
+}
+
+.header .box {
+  background: -webkit-gradient(linear, right top, left top, color-stop(1.33%, #081942), color-stop(65.73%, #081942), color-stop(95.72%, rgba(8, 25, 66, 0)));
+  background: linear-gradient(270deg, #081942 1.33%, #081942 65.73%, rgba(8, 25, 66, 0) 95.72%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .box .hotline {
+  padding-right: 2%;
+  display: inline-table;
+}
+
+.header .box .hotline p {
+  padding-top: 1%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4468C0;
+  position: relative;
+  padding-left: 18px;
+}
+
+.header .box .hotline p:before {
+  background: url("../images-1/phone.png");
+  content: '';
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 0;
+  -webkit-transform: rotate(-12.92deg);
+          transform: rotate(-12.92deg);
+}
+
+.header .box .search {
+  padding-right: 3%;
+  display: inline-table;
+}
+
+.header .menu .logo {
+  padding-left: 7%;
+  display: inline-table;
+}
+
+.header .menu ul {
+  width: 85%;
+  display: inline-table;
+  padding-left: 18%;
+}
+
+.header .menu ul li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-table;
+  padding: 2%;
+}
+
+.header .menu ul a {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 190.19%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header .menu ul a:hover {
+  color: #F7AC30;
+}
+
+.header .menu .menu-toggle {
+  display: inline-table;
+  line-height: 73px;
+}
+
+.header .menu .bar1, .header .menu .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .menu .bar2 {
+  width: 25px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .menu .change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.header .menu .change .bar2 {
+  opacity: 0;
+}
+
+.header .menu .change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+/*# sourceMappingURL=header.css.map */
