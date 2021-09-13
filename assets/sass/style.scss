@@ -686,3 +686,383 @@
             }
         }
     }
+// reponsive 
+@media only screen and (max-width:1024px)
+{
+    .linh-vuc-hoat-dong{
+        .box-text{
+            display: flex;
+            flex-direction: column;
+        }  
+    }
+}
+// màn hình tablet
+@media only screen and (min-width:740px) and (max-width:1024px)
+{
+    .linh-vuc-hoat-dong{
+        .box-text{
+            .title{
+                h3{
+                    font-size: 18px;
+                }
+                h2{
+                    font-size: 30px;
+                }
+            }
+        }
+        .slide{
+            .lazy{
+                .item{
+                    .text{
+                        h3{
+                            font-size: 18px;
+                        }
+                        h2{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .item::before{
+                    content: '';
+                    position: absolute;
+                    height: 11vw;
+                    width:98%;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 10px;
+                    bottom: .7%;
+                    left: 1%;
+                }
+            }
+        }
+        
+    }
+    .he-sinh-thai{
+        .box-text{
+            h3{
+                font-size: 18px;
+            }
+            h2{
+                font-size: 22px;
+            }
+        }
+        .box-content{
+            .list-item{
+                .item{
+                    h1{
+                        font-size: 10px;
+                    }
+                    img{
+                        height: 90px;
+                        width: 90px;
+                    }
+                }
+            }
+        }
+    }
+    .sieu-ung-dung{
+        .row-ung-dung{
+            flex-direction: column;
+            .img{
+                img{
+                    width: 100%;
+                }
+            }
+            .text{
+                text-align: center;
+                .content{
+                    h2{
+                        font-size: 22px;
+                    }
+                    h1{
+                        width: 100%;
+                        font-size: 28px;
+                    }
+                    p{
+                        width: 100%;
+                        font-size: 18px;
+                    }
+                }
+                .install{
+                    padding-top: 2%;
+                    padding-left: 8%;   
+                }
+            }
+        }
+    }
+    .du-an-bds{
+        .row-bds{
+            .text{
+                h1{
+                    font-size: 30px;
+                }
+            }
+            .slide{
+                .lazy-1{
+                    .item{
+                        .text{
+                            p{
+                                font-size: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tin-tuc{
+        .row-tin-tuc{    
+            padding-bottom: 10%;
+        }
+    }
+    .row-footer{
+        .row-footer-bot{
+            .row-thong-tin{
+                width: 100%;
+                padding: 0;
+            }
+            .row-ks{
+                width: 50%;
+                padding: 0;
+            }
+            .row-ket-noi{
+                width: 50%;
+                padding: 0;
+            }
+        }
+    }
+}
+// màn hình mobile
+@media only screen and (max-width:740px)
+{
+    .linh-vuc-hoat-dong{
+        .box-text{
+            .title{
+                h3{
+                    font-size: 12px;
+                }
+                h2{
+                    font-size: 18px;
+                }
+            }
+            .content{
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .slide{
+            .lazy{
+                width: 95%;
+                padding-left: 5%;
+                .item{
+                    .text{
+                        width: 90%;
+                        padding-left: 10%;
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .item::before{
+                    content: '';
+                    position: absolute;
+                    height: 15vw;
+                    width: 98%;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 10px;
+                    bottom: .7%;
+                    left: 1%;
+                }
+                
+            }
+        }   
+    }
+    .he-sinh-thai{
+        height: auto;
+        .box-text{
+            h3{
+                font-size: 12px;
+            }
+            h2{
+                font-size: 12px;
+            }
+        }
+        .box-content{
+            .pic{
+                padding-bottom: 30%;
+            }
+            .list-item{
+                .item{
+                    flex-direction: column-reverse ;
+                    h1{
+                        font-size: 8px;
+                    }
+                    img{
+                        height: 45px;
+                        width: 45px;
+                    }
+                }
+                .item-1{
+                    top: 15vw;
+                    left: 25vw;
+                    transform: translateX(-50%);
+                }
+                .item-2{
+                    top: 15vw;
+                    right: 25vw;
+                    transform: translateX(50%);
+                }
+                .item-3{
+                    top: 35vw;
+                    left: 25vw;
+                    transform: translateX(-50%);
+                }
+                .item-4{
+                    top: 35vw;
+                    right: 25vw;
+                    transform: translateX(50%);
+                }
+                .item-5{
+                    top: 55vw;
+                    left: 25vw;
+                    transform: translateX(-50%);
+                }
+                .item-6{
+                    top: 55vw;
+                    right: 25vw;
+                    transform: translateX(50%);
+                }
+                .item-7{
+                    top:75vw;
+                    left: 25vw;
+                    transform: translateX(-50%);
+                }
+                .item-8{
+                    top: 75vw;
+                    right: 25vw;
+                    transform: translateX(50%);
+                }
+            }
+        }
+    }
+    .sieu-ung-dung{
+        .row-ung-dung{
+            flex-direction: column;
+            .img{
+                img{
+                    width: 100%;
+                }
+            }
+            .text{
+                text-align: center;
+                .content{
+                    h2{
+                        font-size: 22px;
+                    }
+                    h1{
+                        width: 100%;
+                        font-size: 28px;
+                    }
+                    p{
+                        width: 100%;
+                        font-size: 18px;
+                    }
+                    h3{
+                        font-size: 18px;
+                    }
+                }
+                .QR-code{
+                    .code{
+                        display: none;
+                    }
+                }
+                .install{
+                    padding:5% 0%;
+                    padding-left: 10%;
+                    img{
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+    .du-an-bds{
+        .row-bds{
+            .text{
+                h1{
+                    font-size: 15px;
+                }
+            }
+            .slide{
+                .lazy-1{
+                    .item{
+                        .text{
+                            position: inherit;
+                            p{
+                                font-size: 12px;
+                            }
+                            .xemthem{
+                                display: none;
+                            }
+                        }  
+                    }
+                }
+            }
+        }
+    }
+    .tin-tuc{
+        .row-tin-tuc{    
+            padding-bottom: 18%;
+            .text{
+                h1{
+                    font-size: 24px;
+                }
+            }
+            .slide{
+                .lazy-2{
+                    .item{
+                        .text{
+                            h2{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .row-footer{
+        .row-footer-top{
+            display: flex;
+            flex-direction: column;
+            .logo{
+                align-self: center;
+                img{
+                    width: 100%;
+                }
+            }
+            .text{
+                h1{
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+        }
+        .row-footer-bot{
+            flex-direction: column;
+            padding-left: 9%;
+            .row-thong-tin{
+                padding:5% 0;
+            }
+            .row-ks{
+                padding:5% 0;
+            }
+            .row-ket-noi{
+                padding:5% 0;
+            }
+        }
+    }
+}

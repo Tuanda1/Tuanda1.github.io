@@ -1474,4 +1474,273 @@
   padding-right: 10%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .linh-vuc-hoat-dong .box-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .linh-vuc-hoat-dong .box-text .title h3 {
+    font-size: 18px;
+  }
+  .linh-vuc-hoat-dong .box-text .title h2 {
+    font-size: 30px;
+  }
+  .linh-vuc-hoat-dong .slide .lazy .item .text h3 {
+    font-size: 18px;
+  }
+  .linh-vuc-hoat-dong .slide .lazy .item .text h2 {
+    font-size: 30px;
+  }
+  .linh-vuc-hoat-dong .slide .lazy .item .text p {
+    font-size: 18px;
+  }
+  .linh-vuc-hoat-dong .slide .lazy .item::before {
+    content: '';
+    position: absolute;
+    height: 11vw;
+    width: 98%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    bottom: .7%;
+    left: 1%;
+  }
+  .he-sinh-thai .box-text h3 {
+    font-size: 18px;
+  }
+  .he-sinh-thai .box-text h2 {
+    font-size: 22px;
+  }
+  .he-sinh-thai .box-content .list-item .item h1 {
+    font-size: 10px;
+  }
+  .he-sinh-thai .box-content .list-item .item img {
+    height: 90px;
+    width: 90px;
+  }
+  .sieu-ung-dung .row-ung-dung {
+    flex-direction: column;
+  }
+  .sieu-ung-dung .row-ung-dung .img img {
+    width: 100%;
+  }
+  .sieu-ung-dung .row-ung-dung .text {
+    text-align: center;
+  }
+  .sieu-ung-dung .row-ung-dung .text .content h2 {
+    font-size: 22px;
+  }
+  .sieu-ung-dung .row-ung-dung .text .content h1 {
+    width: 100%;
+    font-size: 28px;
+  }
+  .sieu-ung-dung .row-ung-dung .text .content p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .sieu-ung-dung .row-ung-dung .text .install {
+    padding-top: 2%;
+    padding-left: 8%;
+  }
+  .du-an-bds .row-bds .text h1 {
+    font-size: 30px;
+  }
+  .du-an-bds .row-bds .slide .lazy-1 .item .text p {
+    font-size: 24px;
+  }
+  .tin-tuc .row-tin-tuc {
+    padding-bottom: 10%;
+  }
+  .row-footer .row-footer-bot .row-thong-tin {
+    width: 100%;
+    padding: 0;
+  }
+  .row-footer .row-footer-bot .row-ks {
+    width: 50%;
+    padding: 0;
+  }
+  .row-footer .row-footer-bot .row-ket-noi {
+    width: 50%;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .linh-vuc-hoat-dong .box-text .title h3 {
+    font-size: 12px;
+  }
+  .linh-vuc-hoat-dong .box-text .title h2 {
+    font-size: 18px;
+  }
+  .linh-vuc-hoat-dong .box-text .content p {
+    font-size: 12px;
+  }
+  .linh-vuc-hoat-dong .slide .lazy {
+    width: 95%;
+    padding-left: 5%;
+  }
+  .linh-vuc-hoat-dong .slide .lazy .item .text {
+    width: 90%;
+    padding-left: 10%;
+  }
+  .linh-vuc-hoat-dong .slide .lazy .item .text p {
+    font-size: 14px;
+  }
+  .linh-vuc-hoat-dong .slide .lazy .item::before {
+    content: '';
+    position: absolute;
+    height: 15vw;
+    width: 98%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    bottom: .7%;
+    left: 1%;
+  }
+  .he-sinh-thai {
+    height: auto;
+  }
+  .he-sinh-thai .box-text h3 {
+    font-size: 12px;
+  }
+  .he-sinh-thai .box-text h2 {
+    font-size: 12px;
+  }
+  .he-sinh-thai .box-content .pic {
+    padding-bottom: 30%;
+  }
+  .he-sinh-thai .box-content .list-item .item {
+    flex-direction: column-reverse;
+  }
+  .he-sinh-thai .box-content .list-item .item h1 {
+    font-size: 8px;
+  }
+  .he-sinh-thai .box-content .list-item .item img {
+    height: 45px;
+    width: 45px;
+  }
+  .he-sinh-thai .box-content .list-item .item-1 {
+    top: 15vw;
+    left: 25vw;
+    transform: translateX(-50%);
+  }
+  .he-sinh-thai .box-content .list-item .item-2 {
+    top: 15vw;
+    right: 25vw;
+    transform: translateX(50%);
+  }
+  .he-sinh-thai .box-content .list-item .item-3 {
+    top: 35vw;
+    left: 25vw;
+    transform: translateX(-50%);
+  }
+  .he-sinh-thai .box-content .list-item .item-4 {
+    top: 35vw;
+    right: 25vw;
+    transform: translateX(50%);
+  }
+  .he-sinh-thai .box-content .list-item .item-5 {
+    top: 55vw;
+    left: 25vw;
+    transform: translateX(-50%);
+  }
+  .he-sinh-thai .box-content .list-item .item-6 {
+    top: 55vw;
+    right: 25vw;
+    transform: translateX(50%);
+  }
+  .he-sinh-thai .box-content .list-item .item-7 {
+    top: 75vw;
+    left: 25vw;
+    transform: translateX(-50%);
+  }
+  .he-sinh-thai .box-content .list-item .item-8 {
+    top: 75vw;
+    right: 25vw;
+    transform: translateX(50%);
+  }
+  .sieu-ung-dung .row-ung-dung {
+    flex-direction: column;
+  }
+  .sieu-ung-dung .row-ung-dung .img img {
+    width: 100%;
+  }
+  .sieu-ung-dung .row-ung-dung .text {
+    text-align: center;
+  }
+  .sieu-ung-dung .row-ung-dung .text .content h2 {
+    font-size: 22px;
+  }
+  .sieu-ung-dung .row-ung-dung .text .content h1 {
+    width: 100%;
+    font-size: 28px;
+  }
+  .sieu-ung-dung .row-ung-dung .text .content p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .sieu-ung-dung .row-ung-dung .text .content h3 {
+    font-size: 18px;
+  }
+  .sieu-ung-dung .row-ung-dung .text .QR-code .code {
+    display: none;
+  }
+  .sieu-ung-dung .row-ung-dung .text .install {
+    padding: 5% 0%;
+    padding-left: 10%;
+  }
+  .sieu-ung-dung .row-ung-dung .text .install img {
+    width: 40%;
+  }
+  .du-an-bds .row-bds .text h1 {
+    font-size: 15px;
+  }
+  .du-an-bds .row-bds .slide .lazy-1 .item .text {
+    position: inherit;
+  }
+  .du-an-bds .row-bds .slide .lazy-1 .item .text p {
+    font-size: 12px;
+  }
+  .du-an-bds .row-bds .slide .lazy-1 .item .text .xemthem {
+    display: none;
+  }
+  .tin-tuc .row-tin-tuc {
+    padding-bottom: 18%;
+  }
+  .tin-tuc .row-tin-tuc .text h1 {
+    font-size: 24px;
+  }
+  .tin-tuc .row-tin-tuc .slide .lazy-2 .item .text h2 {
+    font-size: 14px;
+  }
+  .row-footer .row-footer-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .row-footer .row-footer-top .logo {
+    align-self: center;
+  }
+  .row-footer .row-footer-top .logo img {
+    width: 100%;
+  }
+  .row-footer .row-footer-top .text h1 {
+    text-align: center;
+    font-size: 14px;
+  }
+  .row-footer .row-footer-bot {
+    flex-direction: column;
+    padding-left: 9%;
+  }
+  .row-footer .row-footer-bot .row-thong-tin {
+    padding: 5% 0;
+  }
+  .row-footer .row-footer-bot .row-ks {
+    padding: 5% 0;
+  }
+  .row-footer .row-footer-bot .row-ket-noi {
+    padding: 5% 0;
+  }
+}
+
 /*# sourceMappingURL=../temp/maps/style.css.map */
