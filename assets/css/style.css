@@ -1582,8 +1582,8 @@
     padding-left: 5%;
   }
   .linh-vuc-hoat-dong .slide .lazy .item .text {
-    width: 90%;
-    padding-left: 10%;
+    width: 100%;
+    padding-left: 1%;
   }
   .linh-vuc-hoat-dong .slide .lazy .item .text p {
     font-size: 14px;
@@ -1608,17 +1608,20 @@
     font-size: 12px;
   }
   .he-sinh-thai .box-content .pic {
-    padding-bottom: 30%;
+    padding-bottom: 75%;
+    height: auto;
   }
   .he-sinh-thai .box-content .list-item .item {
     flex-direction: column-reverse;
   }
   .he-sinh-thai .box-content .list-item .item h1 {
-    font-size: 8px;
+    font-size: 14px;
+    width: 70%;
+    text-align: center;
   }
   .he-sinh-thai .box-content .list-item .item img {
-    height: 45px;
-    width: 45px;
+    height: 70px;
+    width: 70px;
   }
   .he-sinh-thai .box-content .list-item .item-1 {
     top: 15vw;
@@ -1631,32 +1634,32 @@
     transform: translateX(50%);
   }
   .he-sinh-thai .box-content .list-item .item-3 {
-    top: 35vw;
+    top: 45vw;
     left: 25vw;
     transform: translateX(-50%);
   }
   .he-sinh-thai .box-content .list-item .item-4 {
-    top: 35vw;
+    top: 45vw;
     right: 25vw;
     transform: translateX(50%);
   }
   .he-sinh-thai .box-content .list-item .item-5 {
-    top: 55vw;
+    top: 75vw;
     left: 25vw;
     transform: translateX(-50%);
   }
   .he-sinh-thai .box-content .list-item .item-6 {
-    top: 55vw;
+    top: 75vw;
     right: 25vw;
     transform: translateX(50%);
   }
   .he-sinh-thai .box-content .list-item .item-7 {
-    top: 75vw;
+    top: 105vw;
     left: 25vw;
     transform: translateX(-50%);
   }
   .he-sinh-thai .box-content .list-item .item-8 {
-    top: 75vw;
+    top: 105vw;
     right: 25vw;
     transform: translateX(50%);
   }

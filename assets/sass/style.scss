@@ -859,8 +859,8 @@
                 padding-left: 5%;
                 .item{
                     .text{
-                        width: 90%;
-                        padding-left: 10%;
+                        width: 100%;
+                        padding-left: 1%;
                         p{
                             font-size: 14px;
                         }
@@ -892,17 +892,20 @@
         }
         .box-content{
             .pic{
-                padding-bottom: 30%;
+                padding-bottom: 75%;
+                height: auto;
             }
             .list-item{
                 .item{
                     flex-direction: column-reverse ;
                     h1{
-                        font-size: 8px;
+                        font-size: 14px;
+                        width: 70%;
+                        text-align: center;
                     }
                     img{
-                        height: 45px;
-                        width: 45px;
+                        height: 70px;
+                        width: 70px;
                     }
                 }
                 .item-1{
@@ -916,32 +919,32 @@
                     transform: translateX(50%);
                 }
                 .item-3{
-                    top: 35vw;
+                    top: 45vw;
                     left: 25vw;
                     transform: translateX(-50%);
                 }
                 .item-4{
-                    top: 35vw;
+                    top: 45vw;
                     right: 25vw;
                     transform: translateX(50%);
                 }
                 .item-5{
-                    top: 55vw;
+                    top: 75vw;
                     left: 25vw;
                     transform: translateX(-50%);
                 }
                 .item-6{
-                    top: 55vw;
+                    top:75vw;
                     right: 25vw;
                     transform: translateX(50%);
                 }
                 .item-7{
-                    top:75vw;
+                    top:105vw;
                     left: 25vw;
                     transform: translateX(-50%);
                 }
                 .item-8{
-                    top: 75vw;
+                    top: 105vw;
                     right: 25vw;
                     transform: translateX(50%);
                 }
