@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/js/slick.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,10 +16,13 @@
    <head>
     <div class="main-menu">
         <div class="menu">
+            <div class="menu-toggle">   
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="align-left" class="svg-inline--fa fa-align-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M12.83 352h262.34A12.82 12.82 0 0 0 288 339.17v-38.34A12.82 12.82 0 0 0 275.17 288H12.83A12.82 12.82 0 0 0 0 300.83v38.34A12.82 12.82 0 0 0 12.83 352zm0-256h262.34A12.82 12.82 0 0 0 288 83.17V44.83A12.82 12.82 0 0 0 275.17 32H12.83A12.82 12.82 0 0 0 0 44.83v38.34A12.82 12.82 0 0 0 12.83 96zM432 160H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0 256H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"></path></svg>
+            </div>
             <div class="logo">
             <img src="assets/images/Frame.png" alt="">
             </div>
-                <ul >
+                <ul class="menu-pc" >
                     <li><a href="">VỀ KSFINANCE</a></li>
                     <li><a href="">LĨNH VỰC HOẠT ĐỘNG</a></li>
                     <li><a href="">Trang mạng lưới</a></li>
@@ -32,7 +36,30 @@
                     <li><a href="">Tin Tức</a></li>
                     <li><a href="">Liên Hệ</a></li>
                 </ul>
-            </div>
+            <label for="mobile-input" class="menu-bar">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+            </label>
+            <input type="checkbox" hidden name=""  class="input" id="mobile-input" >
+            <ul class="menu-mobile" >
+                <label for="mobile-input" class="close-menu-mobile">
+                    <i class="fas fa-times"></i>
+                </label>
+                <li><a href="">VỀ KSFINANCE</a></li>
+                <li><a href="">LĨNH VỰC HOẠT ĐỘNG</a></li>
+                <li><a href="">Trang mạng lưới</a></li>
+                <li><a href="" >Hệ Thống Chi Nhánh</a>
+                    <i class="fa fa-angle-right"></i>
+                    <ul class="sub-menu">
+                        <li><a href="">SunShine Group</a></li>
+                        <li><a href="">Unicloud Group</a></li>
+                        <li><a href="">ODE Group</a></li>
+                        <li><a href="">SCG Group</a></li>
+                    </ul>
+                <li><a href="">Tin Tức</a></li>
+                <li><a href="">Liên Hệ</a></li>
+            </ul>
+            
+        </div>
         <div class="menu-line"></div>
         <ul class="main-blow">
             <li><a href="">Đầu tư & Phát triển BDS</a></li>

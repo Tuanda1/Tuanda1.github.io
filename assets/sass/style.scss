@@ -32,7 +32,6 @@
                 text-align: center;
                 display: inline-table;
                 width: 15%;
-                display: inline-block;
             }
             a{
                 text-decoration: none;
@@ -47,7 +46,87 @@
             a:hover{
                 color: #d47629;
             }
-        }     
+        }
+        input:checked ~.menu-mobile{
+            transform: translateX(0%);
+        }
+        .menu-mobile{
+            transform: translateX(100%);
+            .close-menu-mobile{
+                font-size: 36px;
+                color: #FFFFFF;
+                position: absolute;
+                top:1%;
+                right: 2%;
+                z-index: 1;
+            }
+            position: fixed;
+            top:0%;
+            right: 0;
+            bottom: -20px;
+            width:250px;
+            max-width: 100%;
+            background: #22355a;
+            z-index: 10;
+            padding: 1% 1%;
+            li{
+                display: block;
+                margin-top: 24px;
+                width:auto;
+                a{ 
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                    
+                }
+                .fa{
+                    color: #FFFFFF;
+                    float: right;
+                    font-size: 16px;
+                    font-weight: bold;
+                    height: 45px;
+                    line-height: 45px;
+                    position: absolute;
+                    right: 0;
+                    text-align: right;
+                    top: 0;
+                    width: 40px;
+                    z-index: 2;
+                    cursor: pointer;
+                }
+            }
+            .sub-menu{
+                position: absolute;
+                width:250px;
+                max-width: 100%;
+                background: rgb(37, 35, 88);
+                z-index: 10;
+                padding: 1% 1%;
+            li{
+                display: block;
+                height: 25px;
+                width: 85%;
+                padding: 0 ;
+                a{ 
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                }
+            }
+        }
+    }
+        .menu-bar{
+            height: 29px;
+            width: 29px;
+            color: #fff;
+            display: none;
+            } 
+            .menu-toggle{
+                height: 29px;
+                width: 29px;
+                color: #fff;
+                display: none;
+            }    
     }
     .menu li:hover .sub-menu{
         display: block;
@@ -699,6 +778,54 @@
 // màn hình tablet
 @media only screen and (min-width:740px) and (max-width:1024px)
 {
+    .main-menu{
+        padding-bottom: 5%;
+        .menu{
+            // display: flex;
+            .logo{
+                transform: translateX(100%);
+            }
+            .menu-pc{
+                display: none;
+            }
+            .menu-bar{
+                display: block;
+                position:absolute;
+                top: 2%;
+                right: 5%;
+            }
+            .menu-toggle{
+                display: block;
+                position:absolute;
+                top: 2%;
+                left: 5%;
+            }
+        }
+        .menu-line{
+            display: none;
+        }
+        .main-blow{
+            display: none;
+        }
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        .img{
+            img{
+                width: 100%;
+            }
+        }
+        .text{
+            display: none;
+            h2{
+                font-size: 18px;
+            }
+            h1{
+                font-size: 22px;
+            }
+        }
+    }
     .linh-vuc-hoat-dong{
         .box-text{
             .title{
@@ -837,6 +964,54 @@
 // màn hình mobile
 @media only screen and (max-width:740px)
 {
+    .main-menu{
+        padding-bottom: 5%;
+        .menu{
+            // display: flex;
+            .logo{
+                transform: translateX(30%);
+            }
+            .menu-pc{
+                display: none;
+            }
+            .menu-bar{
+                display: block;
+                position:absolute;
+                top: 2%;
+                right: 5%;
+            }
+            .menu-toggle{
+                display: block;
+                position:absolute;
+                top: 2%;
+                left: 5%;
+            }
+        }
+        .menu-line{
+            display: none;
+        }
+        .main-blow{
+            display: none;
+        }
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        .img{
+            img{
+                width: 100%;
+            }
+        }
+        .text{
+            display: none;
+            h2{
+                font-size: 18px;
+            }
+            h1{
+                font-size: 22px;
+            }
+        }
+    }
     .linh-vuc-hoat-dong{
         .box-text{
             .title{
